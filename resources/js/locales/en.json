@@ -1,0 +1,43 @@
+{
+  "login": "Login",
+  "Register": "Register",
+  "welcome": "Welcome to the calendar",
+  "Name": "Name",
+  "Email": "Email",
+  "Password": "Password",
+  "Confirm Password": "Confirm Password",
+  "Already registered?": "Already registered?",
+  "Remember me": "Remember me",
+  "Forgot your password?": "Forgot your password?",
+  "Log in": "Log in",
+  "Dashboard": "Dashboard",
+  "Profile": "Profile",
+  "Log Out": "Log Out",
+  "Profile Information": "Profile Information",
+  "save": "Update your profile information and account email address.",
+  "Update Password": "Update Password",
+  "Current Password": "Current Password",
+  "New Password": "New Password",
+  "Delete Account": "Delete Account",
+  "Cancel": "Cancel",
+
+  "auth": {
+    "failed": "Email or password incorrect",
+    "invalid_email": "Invalid email",
+    "invalid_password": "Invalid password",
+    "password_required": "Please enter your password",
+    "required": "This field is required"
+  },
+  "validation": {
+    "name_too_short":"Mandatory name",
+    "required": "This field is required.",
+    "invalid_email_with_at": "Include an \"@\" in the email address. \"{email}\" is missing an \"@\"."
+  },
+
+  "Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.": "Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.",
+  "Email Password Reset Link": "Email Password Reset Link",
+  "Update your account's profile information and email address.": "Update your account's profile information and email address.",
+  "Ensure your account is using a long, random password to stay secure.": "Ensure your account is using a long, random password to stay secure.",
+  "Are you sure you want to delete your account?": "Are you sure you want to delete your account?",
+  "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.": "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain."
+}

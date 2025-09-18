@@ -6,8 +6,12 @@ import DropdownLink from '@/Components/DropdownLink.vue';
 import NavLink from '@/Components/NavLink.vue';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
 import { Link } from '@inertiajs/vue3';
-
+import LanguageSelector from '@/Components/LanguageSelector.vue';
 const showingNavigationDropdown = ref(false);
+
+import { useI18n } from 'vue-i18n'; //  importa o sistema de tradução
+const { t } = useI18n(); //  função de tradução $t()
+
 </script>
 
 <template>
@@ -37,13 +41,15 @@ const showingNavigationDropdown = ref(false);
                                     :href="route('dashboard')"
                                     :active="route().current('dashboard')"
                                 >
-                                    Dashboard
+                                    {{$t('Dashboard')}}
                                 </NavLink>
                             </div>
                         </div>
 
                         <div class="hidden sm:ms-6 sm:flex sm:items-center">
-                            <!-- Settings Dropdown -->
+                            <!-- Settings Dropdown --><div style="text-align: end;">
+                                <LanguageSelector  />
+                            </div>
                             <div class="relative ms-3">
                                 <Dropdown align="right" width="48">
                                     <template #trigger>
@@ -74,14 +80,14 @@ const showingNavigationDropdown = ref(false);
                                         <DropdownLink
                                             :href="route('profile.edit')"
                                         >
-                                            Profile
+                                            {{$t('Profile')}}
                                         </DropdownLink>
                                         <DropdownLink
                                             :href="route('logout')"
                                             method="post"
                                             as="button"
                                         >
-                                            Log Out
+                                            {{$t('Log Out')}}
                                         </DropdownLink>
                                     </template>
                                 </Dropdown>

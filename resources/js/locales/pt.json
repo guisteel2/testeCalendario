@@ -1,0 +1,44 @@
+{
+  "login": "Entrar",
+  "Register": "Registrar",
+  "welcome": "Bem-vindo ao calendário",
+  "Name": "Nome",
+  "Email": "E-mail", 
+  "Password": "Senha",
+  "Confirm Password": "Confirme sua senha",
+  "Already registered?": "Já está registrado?",
+  "Remember me": "Lembre de mim",
+  "Forgot your password?": "Esqueceu sua senha?",
+  "Log in": "Conecte-se",
+  "Dashboard": "Painel",
+  "Profile": "Perfil",
+  "Log Out": "Sair",
+  "Profile Information": "Informações do perfil",
+  "save": "Atualize as informações do perfil e o endereço de e-mail da sua conta.",
+  "Update Password":"Atualizar senha",
+  "Current Password":"Senha atual",
+  "New Password":"Nova Senha",
+  "Delete Account":"Excluir conta",
+  "Cancel":"Cancelar",
+
+  "auth": {
+    "failed": "Email ou senha incorretos",
+    "invalid_email": "Email inválido",
+    "invalid_password": "Senha incorreta",
+    "password_required": "Digite sua senha",
+    "required": "Preencha este campo."
+  },
+  "validation": {
+    "name_too_short":"Mandatory name",
+    "required": "Preencha este campos.",
+    "invalid_email_with_at": "Inclua um \"@\" no endereço de e-mail. \"{email}\" está com um \"@\" faltando."
+  },
+
+  "Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.":"Esqueceu sua senha? Sem problemas. Basta nos informar seu endereço de e-mail e enviaremos um link para redefinição de senha que permitirá que você escolha uma nova.",
+  "Email Password Reset Link":"Link para redefinição de senha de e-mail",
+  "Update your account's profile information and email address.": "Certifique-se de que sua conta esteja usando uma senha longa e aleatória para permanecer segura.",
+  "Ensure your account is using a long, random password to stay secure.":"Após a exclusão da sua conta, todos os seus recursos e dados serão excluídos permanentemente. Antes de excluir sua conta, baixe todos os dados ou informações que deseja manter.",
+  "Are you sure you want to delete your account?":"Tem certeza de que deseja excluir sua conta?",
+  "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.":"Após a exclusão da sua conta, todos os seus recursos e dados serão excluídos permanentemente. Antes de excluir sua conta, baixe todos os dados ou informações que deseja manter."
+}
+
